@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 20px 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333333;
+    background-color: #e8e8e8; 
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 2rem;
+    border: 1px solid #bbb;
+}
+
+.form-grid, .form-grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label.field-label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #555555; 
+    font-size: 0.92rem;
+}
+
+select, input[type="number"] {
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    outline: none;
+    font-size: 0.9rem;
+    transition: border 0.3s, background 0.3s;
+    background-color: #f9f9f9; 
+}
+
+select:hover, input[type="number"]:hover {
+    border-color: #888;
+}
+
+select option {
+    background-color: #fff;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1rem;
+    background-color: #dcdcdc; /* light gray button */
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #888888; /* dark gray on hover */
+}
+
+.result {
+    margin-top: 18px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #222;
+    border-radius: 6px;
+    transition: background 0.5s;
+}
